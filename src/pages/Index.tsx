@@ -18,7 +18,7 @@ const Index = () => {
   };
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-white via-blue-50 to-purple-50">
+    <div className="min-h-screen bg-gradient-to-br from-white via-red-50 to-red-100">
       <header className="sticky top-0 z-50 bg-white/80 backdrop-blur-lg border-b border-gray-200">
         <nav className="container mx-auto px-4 py-4">
           <div className="flex items-center justify-between">
@@ -123,7 +123,7 @@ const Index = () => {
         </div>
       </section>
 
-      <section id="examples" className="py-20 bg-gradient-to-br from-blue-50 to-purple-50">
+      <section id="examples" className="py-20 bg-gradient-to-br from-red-50 to-white">
         <div className="container mx-auto px-4">
           <h2 className="text-4xl font-heading font-bold text-center mb-12">Примеры использования</h2>
           <div className="grid md:grid-cols-3 gap-8">
@@ -258,7 +258,7 @@ const Index = () => {
         </div>
       </section>
 
-      <section id="reviews" className="py-20 bg-gradient-to-br from-purple-50 to-blue-50">
+      <section id="reviews" className="py-20 bg-gradient-to-br from-red-50 to-white">
         <div className="container mx-auto px-4">
           <h2 className="text-4xl font-heading font-bold text-center mb-12">Отзывы клиентов</h2>
           <div className="grid md:grid-cols-3 gap-6 max-w-6xl mx-auto">
@@ -329,7 +329,7 @@ const Index = () => {
                 </div>
               </div>
             </div>
-            <div className="bg-gradient-to-br from-blue-100 to-purple-100 rounded-2xl p-8">
+            <div className="bg-gradient-to-br from-red-50 to-red-100 rounded-2xl p-8">
               <h3 className="text-2xl font-heading font-bold mb-4">Остались вопросы?</h3>
               <p className="text-gray-700 mb-6">Заполните форму, и мы свяжемся с вами в ближайшее время</p>
               <div className="space-y-4">
